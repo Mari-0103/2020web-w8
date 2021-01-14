@@ -19,7 +19,7 @@
     function initMap() {
       var myOptions = {
         zoom: 8,
-        center: {lat: 122.38, lng: -37.62},
+        center: {lat: 122.38, lng: 37.62},
         mapTypeId: google.maps.MapTypeId.TERRAIN,
         disableDefaultUI: true,
         // Step 4. Customize displayed controls
@@ -34,7 +34,7 @@
       var iconBase = 'https://maps.google.com/mapfiles/kml/shapes/';
 
       var marker = new google.maps.Marker({
-        position: {lat: 122.38, lng: -37.62},
+        position: {lat: 122.38, lng: 37.62},
         icon: iconBase + 'flag_maps.png',
         map: map
       });
